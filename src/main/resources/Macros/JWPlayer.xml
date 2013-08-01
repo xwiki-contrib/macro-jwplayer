@@ -12460,7 +12460,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAA
     <property>
       <code>require.config({
   paths: {
-    jwplayer: "$doc.getExternalURL('download')/jwplayer"
+    jwplayer: "$doc.getAttachmentURL('jwplayer')"
   },
   shim: {
     jwplayer: {
