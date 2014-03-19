@@ -1,33 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <xwikidoc>
-	<web>Macros</web>
-	<name>JWPlayer</name>
-	<language/>
-	<defaultLanguage/>
-	<translation>0</translation>
-	<parent>Macros.WebHome</parent>
-	<creator>xwiki:XWiki.Admin</creator>
-	<author>xwiki:XWiki.Admin</author>
-	<customClass/>
-	<contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-	<creationDate>1375191847000</creationDate>
-	<date>1375199566000</date>
-	<contentUpdateDate>1375199566000</contentUpdateDate>
-	<version>1.1</version>
-	<title>JW Player</title>
-	<defaultTemplate/>
-	<validationScript/>
-	<comment/>
-	<minorEdit>false</minorEdit>
-	<syntaxId>xwiki/2.1</syntaxId>
-	<hidden>true</hidden>
-	<attachment>
-		<filename>jwplayer.flash.swf</filename>
-		<filesize>142663</filesize>
-		<author>XWiki.Admin</author>
-		<date>1375191944000</date>
-		<version>1.1</version>
-		<comment></comment><content>Q1dTDv1IBAB42sy8CfzrZJU3flFBcRBRUPFV4Q6oqAXSpGmbwL0XszdJ0zZJ0zZxYdI0TdKkSZu9
+  <web>Macros</web>
+  <name>JWPlayer</name>
+  <language/>
+  <defaultLanguage/>
+  <translation>0</translation>
+  <parent>Macros.WebHome</parent>
+  <creator>xwiki:XWiki.Admin</creator>
+  <author>xwiki:XWiki.Admin</author>
+  <customClass/>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <creationDate>1375191847000</creationDate>
+  <date>1375199566000</date>
+  <contentUpdateDate>1375199566000</contentUpdateDate>
+  <version>1.1</version>
+  <title>JW Player</title>
+  <defaultTemplate/>
+  <validationScript/>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.1</syntaxId>
+  <hidden>true</hidden>
+  <attachment>
+    <filename>jwplayer.flash.swf</filename>
+    <filesize>142663</filesize>
+    <author>XWiki.Admin</author>
+    <date>1375191944000</date>
+    <version>1.1</version>
+    <comment/>
+    <content>Q1dTDv1IBAB42sy8CfzrZJU3flFBcRBRUPFV4Q6oqAXSpGmbwL0XszdJ0zZJ0zZxYdI0TdKkSZu9
 YRvFFRdGGUVlcwUZEAQHFEQQEUFRUHEEZF8URNnlslwG/vldEJj3xfkwovP593N/bZOe58l5znPO
 95zvkzw3X/eSW9at2/HEdet23WYd+apd161bd9jOl22zbt2GcDLdTyLp9fnc86P9yqONe9lxvNgP
 ALIs2zer7RuEFgCiKApUIQCC9ikl9olWfqzn+/jRnntt2toBaUZG6CxiJ/DXrx3r4yCJN+6111O9
@@ -2530,13 +2532,16 @@ UTf8YcT9NaNH3HvDr9nznp+NrP3dL2pHPii4v0juUUbNH+578Lc33Mae9/z8AUhL2T1fpvCf3j9y
 1IifjBk9GgBIXwbAT2pqf3ebMWLEaMH7F3ty1O8Qws9G6DVj7h99G3xA7ZMj7r13xL34IRR9mfb/
 7L6a+0f+9ot3QO/8zg7wfQkAvx75x3tYduyJ3/5h5JgH7xVKvkRP3m6MeSB5zy33j/wj687iL9Oa
 2/943+jRI/5A3eH/MgBiNbUjkiNHMoSUvvyAYGcIwtXz0+NX9LDmknAzZPo/IY/1QA==
-		</content></attachment><attachment>
-		<filename>jwplayer.html5.js</filename>
-		<filesize>134283</filesize>
-		<author>XWiki.Admin</author>
-		<date>1375191944000</date>
-		<version>1.1</version>
-		<comment></comment><content>KGZ1bmN0aW9uKGYpe2YuaHRtbDU9e307Zi5odG1sNS52ZXJzaW9uPSI2LjUuMzYwOSJ9KShqd3Bs
+</content>
+  </attachment>
+  <attachment>
+    <filename>jwplayer.html5.js</filename>
+    <filesize>134283</filesize>
+    <author>XWiki.Admin</author>
+    <date>1375191944000</date>
+    <version>1.1</version>
+    <comment/>
+    <content>KGZ1bmN0aW9uKGYpe2YuaHRtbDU9e307Zi5odG1sNS52ZXJzaW9uPSI2LjUuMzYwOSJ9KShqd3Bs
 YXllcik7CihmdW5jdGlvbihmKXtmdW5jdGlvbiBoKGEpe3JldHVybiBmdW5jdGlvbigpe2EoIkVy
 cm9yIGxvYWRpbmcgZmlsZSIpfX1mdW5jdGlvbiBlKGEsYixjLGUpe3JldHVybiBmdW5jdGlvbigp
 e3RyeXt2YXIgZz1hLnJlc3BvbnNlWE1MO2lmKGcmJmcuZmlyc3RDaGlsZClyZXR1cm4gYyhhKX1j
@@ -4892,13 +4897,16 @@ KSIpfWgodGhpcyxuZXcgZShkLGEpKX19KShqd3BsYXllci5odG1sNSk7KGZ1bmN0aW9uKGYpe3Zh
 ciBoPWYudmlldztmLnZpZXc9ZnVuY3Rpb24oZSxkKXt2YXIgYT1uZXcgaChlLGQpOyJpbnZhbGlk
 Ij09ZC5lZGl0aW9uKCkmJmEuc2V0dXBFcnJvcigiRXJyb3Igc2V0dGluZyB1cCBwbGF5ZXI6IElu
 dmFsaWQgbGljZW5zZSBrZXkiKTtyZXR1cm4gYX19KShqd3BsYXllci5odG1sNSk7
-		</content></attachment><attachment>
-		<filename>jwplayer.js</filename>
-		<filesize>41581</filesize>
-		<author>XWiki.Admin</author>
-		<date>1375191945000</date>
-		<version>1.1</version>
-		<comment></comment><content>InVuZGVmaW5lZCI9PXR5cGVvZiBqd3BsYXllciYmKGp3cGxheWVyPWZ1bmN0aW9uKGYpe2lmKGp3
+</content>
+  </attachment>
+  <attachment>
+    <filename>jwplayer.js</filename>
+    <filesize>41581</filesize>
+    <author>XWiki.Admin</author>
+    <date>1375191945000</date>
+    <version>1.1</version>
+    <comment/>
+    <content>InVuZGVmaW5lZCI9PXR5cGVvZiBqd3BsYXllciYmKGp3cGxheWVyPWZ1bmN0aW9uKGYpe2lmKGp3
 cGxheWVyLmFwaSlyZXR1cm4gandwbGF5ZXIuYXBpLnNlbGVjdFBsYXllcihmKX0sandwbGF5ZXIu
 dmVyc2lvbj0iNi41LjM2MDkiLGp3cGxheWVyLnZpZD1kb2N1bWVudC5jcmVhdGVFbGVtZW50KCJ2
 aWRlbyIpLGp3cGxheWVyLmF1ZGlvPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoImF1ZGlvIiksandw
@@ -5628,13 +5636,16 @@ b2FkSW5zdHJlYW0iLGQsZj9mOnt9KX19KGp3cGxheWVyKSxmdW5jdGlvbihmKXt2YXIgYT1mLmFw
 aSxrPWEuc2VsZWN0UGxheWVyO2Euc2VsZWN0UGxheWVyPWZ1bmN0aW9uKGEpe3JldHVybihhPWso
 YSkpP2E6e3JlZ2lzdGVyUGx1Z2luOmZ1bmN0aW9uKGEsYixkKXtmLnBsdWdpbnMucmVnaXN0ZXJQ
 bHVnaW4oYSxiLGQpfX19fShqd3BsYXllcikpOw==
-		</content></attachment><attachment>
-		<filename>video.mp4</filename>
-		<filesize>383631</filesize>
-		<author>XWiki.Admin</author>
-		<date>1375196427000</date>
-		<version>1.1</version>
-		<comment></comment><content>AAAAHGZ0eXBtcDQyAAAAAG1wNDJpc29tYXZjMQAAAIRmcmVlAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+</content>
+  </attachment>
+  <attachment>
+    <filename>video.mp4</filename>
+    <filesize>383631</filesize>
+    <author>XWiki.Admin</author>
+    <date>1375196427000</date>
+    <version>1.1</version>
+    <comment/>
+    <content>AAAAHGZ0eXBtcDQyAAAAAG1wNDJpc29tYXZjMQAAAIRmcmVlAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFy+htZGF0AAAC
 CQYF//8F3EXpvebZSLeWLNgg2SPu73gyNjQgLSBjb3JlIDc5IC0gSC4yNjQvTVBFRy00IEFWQyBj
@@ -12365,90 +12376,91 @@ AAAAAAA6aWxzdAAAADKpdG9vAAAAKmRhdGEAAAABAAAAAEhhbmRCcmFrZSAwLjkuNCAyMDA5MTEy
 MzAwAAAAhGZyZWUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAA
-		</content></attachment>
-	<object>
-		<class>
-			<name>XWiki.JavaScriptExtension</name>
-			<customClass></customClass>
-			<customMapping></customMapping>
-			<defaultViewSheet></defaultViewSheet>
-			<defaultEditSheet></defaultEditSheet>
-			<defaultWeb></defaultWeb>
-			<nameField></nameField>
-			<validationScript></validationScript>
-			<cache>
-				<cache>0</cache>
-				<disabled>0</disabled>
-				<displayType>select</displayType>
-				<multiSelect>0</multiSelect>
-				<name>cache</name>
-				<number>5</number>
-				<prettyName>Caching policy</prettyName>
-				<relationalStorage>0</relationalStorage>
-				<separator> </separator>
-				<separators> ,|</separators>
-				<size>1</size>
-				<unmodifiable>0</unmodifiable>
-				<values>long|short|default|forbid</values>
-				<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
-			</cache>
-			<code>
-				<disabled>0</disabled>
-				<name>code</name>
-				<number>2</number>
-				<prettyName>Code</prettyName>
-				<rows>20</rows>
-				<size>50</size>
-				<unmodifiable>0</unmodifiable>
-				<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-			</code>
-			<name>
-				<disabled>0</disabled>
-				<name>name</name>
-				<number>1</number>
-				<prettyName>Name</prettyName>
-				<size>30</size>
-				<unmodifiable>0</unmodifiable>
-				<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-			</name>
-			<parse>
-				<disabled>0</disabled>
-				<displayFormType>select</displayFormType>
-				<displayType>yesno</displayType>
-				<name>parse</name>
-				<number>4</number>
-				<prettyName>Parse content</prettyName>
-				<unmodifiable>0</unmodifiable>
-				<classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
-			</parse>
-			<use>
-				<cache>0</cache>
-				<disabled>0</disabled>
-				<displayType>select</displayType>
-				<multiSelect>0</multiSelect>
-				<name>use</name>
-				<number>3</number>
-				<prettyName>Use this extension</prettyName>
-				<relationalStorage>0</relationalStorage>
-				<separator> </separator>
-				<separators> ,|</separators>
-				<size>1</size>
-				<unmodifiable>0</unmodifiable>
-				<values>currentPage=Always on this page|onDemand=On demand|always=Always on this wiki</values>
-				<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
-			</use>
-		</class>
-		<name>Macros.JWPlayer</name>
-		<number>0</number>
-		<className>XWiki.JavaScriptExtension</className>
-		<guid>cf4795b9-56d4-4269-9df0-5a2a405dc607</guid>
-		<property>
-			<cache>long</cache>
-		</property>
-		<property>
-			<code>require.config({
+</content>
+  </attachment>
+  <object>
+    <class>
+      <name>XWiki.JavaScriptExtension</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <cache>
+        <cache>0</cache>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>cache</name>
+        <number>5</number>
+        <prettyName>Caching policy</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators> ,|</separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>long|short|default|forbid</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </cache>
+      <code>
+        <disabled>0</disabled>
+        <name>code</name>
+        <number>2</number>
+        <prettyName>Code</prettyName>
+        <rows>20</rows>
+        <size>50</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </code>
+      <name>
+        <disabled>0</disabled>
+        <name>name</name>
+        <number>1</number>
+        <prettyName>Name</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </name>
+      <parse>
+        <disabled>0</disabled>
+        <displayFormType>select</displayFormType>
+        <displayType>yesno</displayType>
+        <name>parse</name>
+        <number>4</number>
+        <prettyName>Parse content</prettyName>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </parse>
+      <use>
+        <cache>0</cache>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>use</name>
+        <number>3</number>
+        <prettyName>Use this extension</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators> ,|</separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>currentPage=Always on this page|onDemand=On demand|always=Always on this wiki</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </use>
+    </class>
+    <name>Macros.JWPlayer</name>
+    <number>0</number>
+    <className>XWiki.JavaScriptExtension</className>
+    <guid>cf4795b9-56d4-4269-9df0-5a2a405dc607</guid>
+    <property>
+      <cache>long</cache>
+    </property>
+    <property>
+      <code>require.config({
   paths: {
-    jwplayer: "$doc.getExternalURL('download')/jwplayer"
+    jwplayer: "$doc.getAttachmentURL('jwplayer')"
   },
   shim: {
     jwplayer: {
@@ -12459,12 +12471,8 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAA
 require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
   $('.jwplayer').each(function(index) {
     var options = {
-      file: this.alt,
+      file: this.alt
     };
-    var autostart = $(this).attr('autostart');
-    autostart &amp;&amp; (options.autostart = autostart);
-    var repeat= $(this).attr('repeat');
-    repeat &amp;&amp; (options.repeat = repeat);
     var width = $(this).attr('width');
     width &amp;&amp; (options.width = width);
     var height = $(this).attr('height');
@@ -12473,133 +12481,133 @@ require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
     jwplayer(this.id).setup(options);
   });
 });</code>
-		</property>
-		<property>
-			<name>JWPlayer Loader</name>
-		</property>
-		<property>
-			<parse>1</parse>
-		</property>
-		<property>
-			<use>onDemand</use>
-		</property>
-	</object>
-	<object>
-		<class>
-			<name>XWiki.WikiMacroClass</name>
-			<customClass></customClass>
-			<customMapping></customMapping>
-			<defaultViewSheet></defaultViewSheet>
-			<defaultEditSheet></defaultEditSheet>
-			<defaultWeb></defaultWeb>
-			<nameField></nameField>
-			<validationScript></validationScript>
-			<code>
-				<disabled>0</disabled>
-				<name>code</name>
-				<number>9</number>
-				<prettyName>Macro code</prettyName>
-				<rows>20</rows>
-				<size>40</size>
-				<unmodifiable>0</unmodifiable>
-				<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-			</code>
-			<contentDescription>
-				<disabled>0</disabled>
-				<name>contentDescription</name>
-				<number>8</number>
-				<prettyName>Content description (Not applicable for "No content" type)</prettyName>
-				<rows>5</rows>
-				<size>40</size>
-				<unmodifiable>0</unmodifiable>
-				<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-			</contentDescription>
-			<contentType>
-				<cache>0</cache>
-				<disabled>0</disabled>
-				<displayType>select</displayType>
-				<multiSelect>0</multiSelect>
-				<name>contentType</name>
-				<number>7</number>
-				<prettyName>Macro content type</prettyName>
-				<relationalStorage>0</relationalStorage>
-				<separator>|</separator>
-				<separators>|</separators>
-				<size>1</size>
-				<unmodifiable>0</unmodifiable>
-				<values>Optional|Mandatory|No content</values>
-				<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
-			</contentType>
-			<defaultCategory>
-				<disabled>0</disabled>
-				<name>defaultCategory</name>
-				<number>4</number>
-				<prettyName>Default category</prettyName>
-				<size>30</size>
-				<unmodifiable>0</unmodifiable>
-				<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-			</defaultCategory>
-			<description>
-				<disabled>0</disabled>
-				<name>description</name>
-				<number>3</number>
-				<prettyName>Macro description</prettyName>
-				<rows>5</rows>
-				<size>40</size>
-				<unmodifiable>0</unmodifiable>
-				<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-			</description>
-			<id>
-				<disabled>0</disabled>
-				<name>id</name>
-				<number>1</number>
-				<prettyName>Macro id</prettyName>
-				<size>30</size>
-				<unmodifiable>0</unmodifiable>
-				<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-			</id>
-			<name>
-				<disabled>0</disabled>
-				<name>name</name>
-				<number>2</number>
-				<prettyName>Macro name</prettyName>
-				<size>30</size>
-				<unmodifiable>0</unmodifiable>
-				<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-			</name>
-			<supportsInlineMode>
-				<disabled>0</disabled>
-				<displayFormType>select</displayFormType>
-				<displayType>yesno</displayType>
-				<name>supportsInlineMode</name>
-				<number>5</number>
-				<prettyName>Supports inline mode</prettyName>
-				<unmodifiable>0</unmodifiable>
-				<classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
-			</supportsInlineMode>
-			<visibility>
-				<cache>0</cache>
-				<disabled>0</disabled>
-				<displayType>select</displayType>
-				<multiSelect>0</multiSelect>
-				<name>visibility</name>
-				<number>6</number>
-				<prettyName>Macro visibility</prettyName>
-				<relationalStorage>0</relationalStorage>
-				<separator>|</separator>
-				<separators>|</separators>
-				<size>1</size>
-				<unmodifiable>0</unmodifiable>
-				<values>Current User|Current Wiki|Global</values>
-				<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
-			</visibility>
-		</class>
-		<name>Macros.JWPlayer</name>
-		<number>0</number>
-		<className>XWiki.WikiMacroClass</className>
-		<guid>2f5ffbbd-953e-4f8e-b5f7-6f0690169bb0</guid>
-		<property>
-			<code>{{velocity}}
+    </property>
+    <property>
+      <name>JWPlayer Loader</name>
+    </property>
+    <property>
+      <parse>1</parse>
+    </property>
+    <property>
+      <use>onDemand</use>
+    </property>
+  </object>
+  <object>
+    <class>
+      <name>XWiki.WikiMacroClass</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <code>
+        <disabled>0</disabled>
+        <name>code</name>
+        <number>9</number>
+        <prettyName>Macro code</prettyName>
+        <rows>20</rows>
+        <size>40</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </code>
+      <contentDescription>
+        <disabled>0</disabled>
+        <name>contentDescription</name>
+        <number>8</number>
+        <prettyName>Content description (Not applicable for "No content" type)</prettyName>
+        <rows>5</rows>
+        <size>40</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </contentDescription>
+      <contentType>
+        <cache>0</cache>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>contentType</name>
+        <number>7</number>
+        <prettyName>Macro content type</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator>|</separator>
+        <separators>|</separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>Optional|Mandatory|No content</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </contentType>
+      <defaultCategory>
+        <disabled>0</disabled>
+        <name>defaultCategory</name>
+        <number>4</number>
+        <prettyName>Default category</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </defaultCategory>
+      <description>
+        <disabled>0</disabled>
+        <name>description</name>
+        <number>3</number>
+        <prettyName>Macro description</prettyName>
+        <rows>5</rows>
+        <size>40</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </description>
+      <id>
+        <disabled>0</disabled>
+        <name>id</name>
+        <number>1</number>
+        <prettyName>Macro id</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </id>
+      <name>
+        <disabled>0</disabled>
+        <name>name</name>
+        <number>2</number>
+        <prettyName>Macro name</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </name>
+      <supportsInlineMode>
+        <disabled>0</disabled>
+        <displayFormType>select</displayFormType>
+        <displayType>yesno</displayType>
+        <name>supportsInlineMode</name>
+        <number>5</number>
+        <prettyName>Supports inline mode</prettyName>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </supportsInlineMode>
+      <visibility>
+        <cache>0</cache>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>visibility</name>
+        <number>6</number>
+        <prettyName>Macro visibility</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator>|</separator>
+        <separators>|</separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>Current User|Current Wiki|Global</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </visibility>
+    </class>
+    <name>Macros.JWPlayer</name>
+    <number>0</number>
+    <className>XWiki.WikiMacroClass</className>
+    <guid>2f5ffbbd-953e-4f8e-b5f7-6f0690169bb0</guid>
+    <property>
+      <code>{{velocity}}
 #if ($xcontext.action != 'edit')
   #set ($discard = $xwiki.jsx.use($xcontext.macro.doc.fullName))
 #end
@@ -12611,371 +12619,237 @@ require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
 #end
 #set ($width = $mathtool.toInteger($xcontext.macro.params.width))
 #set ($height = $mathtool.toInteger($xcontext.macro.params.height))
-#set ($autostart = $xcontext.macro.params.autostart)
-#set ($repeat = $xcontext.macro.params.repeat)
-[[image:missing.png||class="jwplayer"#if ($width) width="$width"#end#if ($height) height="$height"#end#if ($autostart) autostart="$autostart"#end#if ($repeat) repeat="$repeat"#end alt="$reference"]]
+[[image:missing.png||class="jwplayer"#if ($width) width="$width"#end#if ($height) height="$height"#end alt="$reference"]]
 {{/velocity}}</code>
-		</property>
-		<property>
-			<contentDescription></contentDescription>
-		</property>
-		<property>
-			<contentType>No content</contentType>
-		</property>
-		<property>
-			<defaultCategory>Content</defaultCategory>
-		</property>
-		<property>
-			<description>The JW Player is an open-source embeddable media player for web sites, supporting many commonly-used audio and video formats. The player is easy to configure, customize and extend.</description>
-		</property>
-		<property>
-			<id>jwplayer</id>
-		</property>
-		<property>
-			<name>JW Player</name>
-		</property>
-		<property>
-			<supportsInlineMode>0</supportsInlineMode>
-		</property>
-		<property>
-			<visibility>Current Wiki</visibility>
-		</property>
-	</object>
-	<object>
-		<class>
-			<name>XWiki.WikiMacroParameterClass</name>
-			<customClass></customClass>
-			<customMapping></customMapping>
-			<defaultViewSheet></defaultViewSheet>
-			<defaultEditSheet></defaultEditSheet>
-			<defaultWeb></defaultWeb>
-			<nameField></nameField>
-			<validationScript></validationScript>
-			<defaultValue>
-				<disabled>0</disabled>
-				<name>defaultValue</name>
-				<number>4</number>
-				<prettyName>Parameter default value</prettyName>
-				<size>30</size>
-				<unmodifiable>0</unmodifiable>
-				<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-			</defaultValue>
-			<description>
-				<disabled>0</disabled>
-				<name>description</name>
-				<number>2</number>
-				<prettyName>Parameter description</prettyName>
-				<rows>5</rows>
-				<size>40</size>
-				<unmodifiable>0</unmodifiable>
-				<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-			</description>
-			<mandatory>
-				<disabled>0</disabled>
-				<displayFormType>select</displayFormType>
-				<displayType>yesno</displayType>
-				<name>mandatory</name>
-				<number>3</number>
-				<prettyName>Parameter mandatory</prettyName>
-				<unmodifiable>0</unmodifiable>
-				<classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
-			</mandatory>
-			<name>
-				<disabled>0</disabled>
-				<name>name</name>
-				<number>1</number>
-				<prettyName>Parameter name</prettyName>
-				<size>30</size>
-				<unmodifiable>0</unmodifiable>
-				<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-			</name>
-		</class>
-		<name>Macros.JWPlayer</name>
-		<number>0</number>
-		<className>XWiki.WikiMacroParameterClass</className>
-		<guid>81433940-d971-4dd9-9392-3c88d3467275</guid>
-		<property>
-			<defaultValue></defaultValue>
-		</property>
-		<property>
-			<description>The reference to the attached media file that should be played. The reference is resolved relative to the current document. E.g.: Space.Page@video.mp4 or Page@video.mp4 or even simply video.mp4</description>
-		</property>
-		<property>
-			<mandatory>1</mandatory>
-		</property>
-		<property>
-			<name>attachment</name>
-		</property>
-	</object>
-	<object>
-		<class>
-			<name>XWiki.WikiMacroParameterClass</name>
-			<customClass></customClass>
-			<customMapping></customMapping>
-			<defaultViewSheet></defaultViewSheet>
-			<defaultEditSheet></defaultEditSheet>
-			<defaultWeb></defaultWeb>
-			<nameField></nameField>
-			<validationScript></validationScript>
-			<defaultValue>
-				<disabled>0</disabled>
-				<name>defaultValue</name>
-				<number>4</number>
-				<prettyName>Parameter default value</prettyName>
-				<size>30</size>
-				<unmodifiable>0</unmodifiable>
-				<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-			</defaultValue>
-			<description>
-				<disabled>0</disabled>
-				<name>description</name>
-				<number>2</number>
-				<prettyName>Parameter description</prettyName>
-				<rows>5</rows>
-				<size>40</size>
-				<unmodifiable>0</unmodifiable>
-				<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-			</description>
-			<mandatory>
-				<disabled>0</disabled>
-				<displayFormType>select</displayFormType>
-				<displayType>yesno</displayType>
-				<name>mandatory</name>
-				<number>3</number>
-				<prettyName>Parameter mandatory</prettyName>
-				<unmodifiable>0</unmodifiable>
-				<classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
-			</mandatory>
-			<name>
-				<disabled>0</disabled>
-				<name>name</name>
-				<number>1</number>
-				<prettyName>Parameter name</prettyName>
-				<size>30</size>
-				<unmodifiable>0</unmodifiable>
-				<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-			</name>
-		</class>
-		<name>Macros.JWPlayer</name>
-		<number>1</number>
-		<className>XWiki.WikiMacroParameterClass</className>
-		<guid>61748de3-0565-4328-87af-66376fff2539</guid>
-		<property>
-			<defaultValue></defaultValue>
-		</property>
-		<property>
-			<description>The player width, in pixels. If not defined, the player tries to determine automatically the width from the played media file.</description>
-		</property>
-		<property>
-			<mandatory>0</mandatory>
-		</property>
-		<property>
-			<name>width</name>
-		</property>
-	</object>
-	<object>
-		<class>
-			<name>XWiki.WikiMacroParameterClass</name>
-			<customClass></customClass>
-			<customMapping></customMapping>
-			<defaultViewSheet></defaultViewSheet>
-			<defaultEditSheet></defaultEditSheet>
-			<defaultWeb></defaultWeb>
-			<nameField></nameField>
-			<validationScript></validationScript>
-			<defaultValue>
-				<disabled>0</disabled>
-				<name>defaultValue</name>
-				<number>4</number>
-				<prettyName>Parameter default value</prettyName>
-				<size>30</size>
-				<unmodifiable>0</unmodifiable>
-				<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-			</defaultValue>
-			<description>
-				<disabled>0</disabled>
-				<name>description</name>
-				<number>2</number>
-				<prettyName>Parameter description</prettyName>
-				<rows>5</rows>
-				<size>40</size>
-				<unmodifiable>0</unmodifiable>
-				<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-			</description>
-			<mandatory>
-				<disabled>0</disabled>
-				<displayFormType>select</displayFormType>
-				<displayType>yesno</displayType>
-				<name>mandatory</name>
-				<number>3</number>
-				<prettyName>Parameter mandatory</prettyName>
-				<unmodifiable>0</unmodifiable>
-				<classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
-			</mandatory>
-			<name>
-				<disabled>0</disabled>
-				<name>name</name>
-				<number>1</number>
-				<prettyName>Parameter name</prettyName>
-				<size>30</size>
-				<unmodifiable>0</unmodifiable>
-				<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-			</name>
-		</class>
-		<name>Macros.JWPlayer</name>
-		<number>2</number>
-		<className>XWiki.WikiMacroParameterClass</className>
-		<guid>f4fb5ad8-5220-4554-9fa4-a1477650faa5</guid>
-		<property>
-			<defaultValue></defaultValue>
-		</property>
-		<property>
-			<description>The player height, in pixels. If not defined, the player tries to determine automatically the height from the played media file.</description>
-		</property>
-		<property>
-			<mandatory>0</mandatory>
-		</property>
-		<property>
-			<name>height</name>
-		</property>
-	</object>
-	<object>
-		<class>
-			<name>XWiki.WikiMacroParameterClass</name>
-			<customClass></customClass>
-			<customMapping></customMapping>
-			<defaultViewSheet></defaultViewSheet>
-			<defaultEditSheet></defaultEditSheet>
-			<defaultWeb></defaultWeb>
-			<nameField></nameField>
-			<validationScript></validationScript>
-			<defaultValue>
-				<disabled>0</disabled>
-				<name>defaultValue</name>
-				<number>4</number>
-				<prettyName>Parameter default value</prettyName>
-				<size>30</size>
-				<unmodifiable>0</unmodifiable>
-				<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-			</defaultValue>
-			<description>
-				<disabled>0</disabled>
-				<name>description</name>
-				<number>2</number>
-				<prettyName>Parameter description</prettyName>
-				<rows>5</rows>
-				<size>40</size>
-				<unmodifiable>0</unmodifiable>
-				<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-			</description>
-			<mandatory>
-				<disabled>0</disabled>
-				<displayFormType>select</displayFormType>
-				<displayType>yesno</displayType>
-				<name>mandatory</name>
-				<number>3</number>
-				<prettyName>Parameter mandatory</prettyName>
-				<unmodifiable>0</unmodifiable>
-				<classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
-			</mandatory>
-			<name>
-				<disabled>0</disabled>
-				<name>name</name>
-				<number>1</number>
-				<prettyName>Parameter name</prettyName>
-				<size>30</size>
-				<unmodifiable>0</unmodifiable>
-				<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-			</name>
-		</class>
-		<name>Macros.JWPlayer</name>
-		<number>3</number>
-		<className>XWiki.WikiMacroParameterClass</className>
-		<guid>98468fa3-ebbc-4f1d-9d86-e46d230c040e</guid>
-		<property>
-			<defaultValue></defaultValue>
-		</property>
-		<property>
-			<description>Automatically start playing the video on page load. Can be true or false (default). Autostart does not work on mobile devices like iOS and Android.</description>
-		</property>
-		<property>
-			<mandatory>0</mandatory>
-		</property>
-		<property>
-			<name>autostart</name>
-		</property>
-	</object>
-	<object>
-		<class>
-			<name>XWiki.WikiMacroParameterClass</name>
-			<customClass></customClass>
-			<customMapping></customMapping>
-			<defaultViewSheet></defaultViewSheet>
-			<defaultEditSheet></defaultEditSheet>
-			<defaultWeb></defaultWeb>
-			<nameField></nameField>
-			<validationScript></validationScript>
-			<defaultValue>
-				<disabled>0</disabled>
-				<name>defaultValue</name>
-				<number>4</number>
-				<prettyName>Parameter default value</prettyName>
-				<size>30</size>
-				<unmodifiable>0</unmodifiable>
-				<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-			</defaultValue>
-			<description>
-				<disabled>0</disabled>
-				<name>description</name>
-				<number>2</number>
-				<prettyName>Parameter description</prettyName>
-				<rows>5</rows>
-				<size>40</size>
-				<unmodifiable>0</unmodifiable>
-				<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-			</description>
-			<mandatory>
-				<disabled>0</disabled>
-				<displayFormType>select</displayFormType>
-				<displayType>yesno</displayType>
-				<name>mandatory</name>
-				<number>3</number>
-				<prettyName>Parameter mandatory</prettyName>
-				<unmodifiable>0</unmodifiable>
-				<classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
-			</mandatory>
-			<name>
-				<disabled>0</disabled>
-				<name>name</name>
-				<number>1</number>
-				<prettyName>Parameter name</prettyName>
-				<size>30</size>
-				<unmodifiable>0</unmodifiable>
-				<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-			</name>
-		</class>
-		<name>Macros.JWPlayer</name>
-		<number>4</number>
-		<className>XWiki.WikiMacroParameterClass</className>
-		<guid>d323a7cc-03d4-477b-a49c-f8ba1cd201eb</guid>
-		<property>
-			<defaultValue></defaultValue>
-		</property>
-		<property>
-			<description>Whether to loop playback of the playlist or not. Can be true (keep playing forever) or false (stop playback when completed). Defaults to false.</description>
-		</property>
-		<property>
-			<mandatory>0</mandatory>
-		</property>
-		<property>
-			<name>repeat</name>
-		</property>
-	</object>
-	<content>You can play video files attached to the current wiki page or to any of your wiki pages:
+    </property>
+    <property>
+      <contentDescription/>
+    </property>
+    <property>
+      <contentType>No content</contentType>
+    </property>
+    <property>
+      <defaultCategory>Content</defaultCategory>
+    </property>
+    <property>
+      <description>The JW Player is an open-source embeddable media player for web sites, supporting many commonly-used audio and video formats. The player is easy to configure, customize and extend.</description>
+    </property>
+    <property>
+      <id>jwplayer</id>
+    </property>
+    <property>
+      <name>JW Player</name>
+    </property>
+    <property>
+      <supportsInlineMode>0</supportsInlineMode>
+    </property>
+    <property>
+      <visibility>Current Wiki</visibility>
+    </property>
+  </object>
+  <object>
+    <class>
+      <name>XWiki.WikiMacroParameterClass</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <defaultValue>
+        <disabled>0</disabled>
+        <name>defaultValue</name>
+        <number>4</number>
+        <prettyName>Parameter default value</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </defaultValue>
+      <description>
+        <disabled>0</disabled>
+        <name>description</name>
+        <number>2</number>
+        <prettyName>Parameter description</prettyName>
+        <rows>5</rows>
+        <size>40</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </description>
+      <mandatory>
+        <disabled>0</disabled>
+        <displayFormType>select</displayFormType>
+        <displayType>yesno</displayType>
+        <name>mandatory</name>
+        <number>3</number>
+        <prettyName>Parameter mandatory</prettyName>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </mandatory>
+      <name>
+        <disabled>0</disabled>
+        <name>name</name>
+        <number>1</number>
+        <prettyName>Parameter name</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </name>
+    </class>
+    <name>Macros.JWPlayer</name>
+    <number>0</number>
+    <className>XWiki.WikiMacroParameterClass</className>
+    <guid>81433940-d971-4dd9-9392-3c88d3467275</guid>
+    <property>
+      <defaultValue/>
+    </property>
+    <property>
+      <description>The reference to the attached media file that should be played. The reference is resolved relative to the current document. E.g.: Space.Page@video.mp4 or Page@video.mp4 or even simply video.mp4</description>
+    </property>
+    <property>
+      <mandatory>1</mandatory>
+    </property>
+    <property>
+      <name>attachment</name>
+    </property>
+  </object>
+  <object>
+    <class>
+      <name>XWiki.WikiMacroParameterClass</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <defaultValue>
+        <disabled>0</disabled>
+        <name>defaultValue</name>
+        <number>4</number>
+        <prettyName>Parameter default value</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </defaultValue>
+      <description>
+        <disabled>0</disabled>
+        <name>description</name>
+        <number>2</number>
+        <prettyName>Parameter description</prettyName>
+        <rows>5</rows>
+        <size>40</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </description>
+      <mandatory>
+        <disabled>0</disabled>
+        <displayFormType>select</displayFormType>
+        <displayType>yesno</displayType>
+        <name>mandatory</name>
+        <number>3</number>
+        <prettyName>Parameter mandatory</prettyName>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </mandatory>
+      <name>
+        <disabled>0</disabled>
+        <name>name</name>
+        <number>1</number>
+        <prettyName>Parameter name</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </name>
+    </class>
+    <name>Macros.JWPlayer</name>
+    <number>1</number>
+    <className>XWiki.WikiMacroParameterClass</className>
+    <guid>61748de3-0565-4328-87af-66376fff2539</guid>
+    <property>
+      <defaultValue/>
+    </property>
+    <property>
+      <description>The player width, in pixels. If not defined, the player tries to determine automatically the width from the played media file.</description>
+    </property>
+    <property>
+      <mandatory>0</mandatory>
+    </property>
+    <property>
+      <name>width</name>
+    </property>
+  </object>
+  <object>
+    <class>
+      <name>XWiki.WikiMacroParameterClass</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <defaultValue>
+        <disabled>0</disabled>
+        <name>defaultValue</name>
+        <number>4</number>
+        <prettyName>Parameter default value</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </defaultValue>
+      <description>
+        <disabled>0</disabled>
+        <name>description</name>
+        <number>2</number>
+        <prettyName>Parameter description</prettyName>
+        <rows>5</rows>
+        <size>40</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </description>
+      <mandatory>
+        <disabled>0</disabled>
+        <displayFormType>select</displayFormType>
+        <displayType>yesno</displayType>
+        <name>mandatory</name>
+        <number>3</number>
+        <prettyName>Parameter mandatory</prettyName>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </mandatory>
+      <name>
+        <disabled>0</disabled>
+        <name>name</name>
+        <number>1</number>
+        <prettyName>Parameter name</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </name>
+    </class>
+    <name>Macros.JWPlayer</name>
+    <number>2</number>
+    <className>XWiki.WikiMacroParameterClass</className>
+    <guid>f4fb5ad8-5220-4554-9fa4-a1477650faa5</guid>
+    <property>
+      <defaultValue/>
+    </property>
+    <property>
+      <description>The player height, in pixels. If not defined, the player tries to determine automatically the height from the played media file.</description>
+    </property>
+    <property>
+      <mandatory>0</mandatory>
+    </property>
+    <property>
+      <name>height</name>
+    </property>
+  </object>
+  <content>You can play video files attached to the current wiki page or to any of your wiki pages:
 
 {{code}}
 {{jwplayer attachment="video.mp4" /}}
-{{jwplayer attachment="Space.Page@video.mp4" width="600" height="400" autostart="false" repeat="false"/}}
+{{jwplayer attachment="Space.Page@video.mp4" width="600" height="400" /}}
 {{/code}}
 
 {{jwplayer attachment="video.mp4" /}}
@@ -12993,4 +12867,5 @@ Finally, you can play video files from your server:
 {{code}}
 {{jwplayer attachment="/path/to/video.mp4" /}}
 {{jwplayer attachment="$xwiki.getSkinFile('videos/sample.mp4')" /}}
-{{/code}}</content></xwikidoc>
+{{/code}}</content>
+</xwikidoc>
