@@ -12473,6 +12473,12 @@ require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
     var options = {
       file: this.alt
     };
+    if($(this).hasClass('autostart')){
+    options.autostart = 'true';
+    }
+    if($(this).hasClass('repeat')){
+    options.repeat = 'true';
+    }
     var width = $(this).attr('width');
     width &amp;&amp; (options.width = width);
     var height = $(this).attr('height');
@@ -12619,7 +12625,9 @@ require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
 #end
 #set ($width = $mathtool.toInteger($xcontext.macro.params.width))
 #set ($height = $mathtool.toInteger($xcontext.macro.params.height))
-[[image:missing.png||class="jwplayer"#if ($width) width="$width"#end#if ($height) height="$height"#end alt="$reference"]]
+#set ($autostart = $xcontext.macro.params.autostart)
+#set ($repeat = $xcontext.macro.params.repeat)
+[[image:missing.png||class="jwplayer#if ($autostart == 'true') autostart#end#if ($repeat == 'true') repeat#end"#if ($width) width="$width"#end#if ($height) height="$height"#end alt="$reference"]]
 {{/velocity}}</code>
     </property>
     <property>
@@ -12845,11 +12853,143 @@ require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
       <name>height</name>
     </property>
   </object>
+  <object>
+    <class>
+      <name>XWiki.WikiMacroParameterClass</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <defaultValue>
+        <disabled>0</disabled>
+        <name>defaultValue</name>
+        <number>4</number>
+        <prettyName>Parameter default value</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </defaultValue>
+      <description>
+        <disabled>0</disabled>
+        <name>description</name>
+        <number>2</number>
+        <prettyName>Parameter description</prettyName>
+        <rows>5</rows>
+        <size>40</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </description>
+      <mandatory>
+        <disabled>0</disabled>
+        <displayFormType>select</displayFormType>
+        <displayType>yesno</displayType>
+        <name>mandatory</name>
+        <number>3</number>
+        <prettyName>Parameter mandatory</prettyName>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </mandatory>
+      <name>
+        <disabled>0</disabled>
+        <name>name</name>
+        <number>1</number>
+        <prettyName>Parameter name</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </name>
+    </class>
+    <name>Macros.JWPlayer</name>
+    <number>3</number>
+    <className>XWiki.WikiMacroParameterClass</className>
+    <guid>b88e790f-49f8-419f-be4e-116e71454a9c</guid>
+    <property>
+      <defaultValue/>
+    </property>
+    <property>
+      <description>Automatically start playing the video on page load. Can be true or false (default). Autostart does not work on mobile devices like iOS and Android.</description>
+    </property>
+    <property>
+      <mandatory>0</mandatory>
+    </property>
+    <property>
+      <name>autostart</name>
+    </property>
+  </object>
+  <object>
+    <class>
+      <name>XWiki.WikiMacroParameterClass</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <defaultValue>
+        <disabled>0</disabled>
+        <name>defaultValue</name>
+        <number>4</number>
+        <prettyName>Parameter default value</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </defaultValue>
+      <description>
+        <disabled>0</disabled>
+        <name>description</name>
+        <number>2</number>
+        <prettyName>Parameter description</prettyName>
+        <rows>5</rows>
+        <size>40</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </description>
+      <mandatory>
+        <disabled>0</disabled>
+        <displayFormType>select</displayFormType>
+        <displayType>yesno</displayType>
+        <name>mandatory</name>
+        <number>3</number>
+        <prettyName>Parameter mandatory</prettyName>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </mandatory>
+      <name>
+        <disabled>0</disabled>
+        <name>name</name>
+        <number>1</number>
+        <prettyName>Parameter name</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </name>
+    </class>
+    <name>Macros.JWPlayer</name>
+    <number>4</number>
+    <className>XWiki.WikiMacroParameterClass</className>
+    <guid>0c82d0b4-903e-46fa-ae9a-34552b855653</guid>
+    <property>
+      <defaultValue/>
+    </property>
+    <property>
+      <description>Whether to loop playback of the playlist or not. Can be true (keep playing forever) or false (stop playback when completed). Defaults to false.</description>
+    </property>
+    <property>
+      <mandatory>0</mandatory>
+    </property>
+    <property>
+      <name>repeat</name>
+    </property>
+  </object>
   <content>You can play video files attached to the current wiki page or to any of your wiki pages:
 
 {{code}}
 {{jwplayer attachment="video.mp4" /}}
-{{jwplayer attachment="Space.Page@video.mp4" width="600" height="400" /}}
+{{jwplayer attachment="Space.Page@video.mp4" width="600" height="400" autostart="false" repeat="false" /}}
 {{/code}}
 
 {{jwplayer attachment="video.mp4" /}}
