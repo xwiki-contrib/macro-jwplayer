@@ -6,7 +6,7 @@ Play media files using [JW Player](http://www.longtailvideo.com/support/jw-playe
 You can play video files attached to the current wiki page or to any of your wiki pages:
 
     {{jwplayer attachment="video.mp4" /}}
-    {{jwplayer attachment="Space.Page@video.mp4" width="600" height="400" /}}
+    {{jwplayer attachment="Space.Page@video.mp4" width="600" height="400" autostart="false" repeat="false" /}}
 
 You can also play external videos such as those found on YouTube:
 

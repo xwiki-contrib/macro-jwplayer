@@ -41,6 +41,10 @@
       <id>mflorea</id>
       <name>Marius Dumitru Florea</name>
     </developer>
+    <developer>
+      <id>jhaimerl</id>
+      <name>Josef Haimerl</name>
+    </developer>
   </developers>
   <scm>
     <connection>scm:git:git://github.com/xwiki-contrib/macro-jwplayer.git</connection>
