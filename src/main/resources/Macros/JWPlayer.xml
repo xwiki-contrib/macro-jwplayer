@@ -12474,10 +12474,10 @@ require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
       file: this.alt
     };
     if($(this).hasClass('autostart')){
-    options.autostart = 'true';
+    	options.autostart = true;
     }
     if($(this).hasClass('repeat')){
-    options.repeat = 'true';
+    	options.repeat = true;
     }
     var width = $(this).attr('width');
     width &amp;&amp; (options.width = width);
@@ -12907,7 +12907,7 @@ require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
     <className>XWiki.WikiMacroParameterClass</className>
     <guid>b88e790f-49f8-419f-be4e-116e71454a9c</guid>
     <property>
-      <defaultValue/>
+      <defaultValue>false</defaultValue>
     </property>
     <property>
       <description>Automatically start playing the video on page load. Can be true or false (default). Autostart does not work on mobile devices like iOS and Android.</description>
@@ -12973,7 +12973,7 @@ require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
     <className>XWiki.WikiMacroParameterClass</className>
     <guid>0c82d0b4-903e-46fa-ae9a-34552b855653</guid>
     <property>
-      <defaultValue/>
+      <defaultValue>false</defaultValue>
     </property>
     <property>
       <description>Whether to loop playback of the playlist or not. Can be true (keep playing forever) or false (stop playback when completed). Defaults to false.</description>
