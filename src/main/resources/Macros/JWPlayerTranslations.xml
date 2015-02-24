@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xwikidoc version="1.1">
+  <web>Macros</web>
+  <name>JWPlayerTranslations</name>
+  <language/>
+  <defaultLanguage/>
+  <translation>0</translation>
+  <creator>xwiki:XWiki.Admin</creator>
+  <creationDate>1424790568000</creationDate>
+  <parent>Macros.JWPlayer</parent>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <date>1424792434000</date>
+  <contentUpdateDate>1424792434000</contentUpdateDate>
+  <version>1.1</version>
+  <title>JWPlayer Translations</title>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.1</syntaxId>
+  <hidden>true</hidden>
+  <content>rendering.macro.jwplayer.name=JW Player
+rendering.macro.jwplayer.description=The JW Player is an open-source embeddable media player for web sites, supporting many commonly-used audio and video formats. The player is easy to configure, customize and extend.
+rendering.macro.jwplayer.parameter.attachment.name=Attachment
+rendering.macro.jwplayer.parameter.attachment.description=The reference to the attached media file that should be played. The reference is resolved relative to the current document. E.g.: Space.Page@video.mp4 or Page@video.mp4 or even simply video.mp4
+rendering.macro.jwplayer.parameter.width.name=Width
+rendering.macro.jwplayer.parameter.width.description=The player width, in pixels. If not defined, the player tries to determine automatically the width from the played media file.
+rendering.macro.jwplayer.parameter.height.name=Height
+rendering.macro.jwplayer.parameter.height.description=The player height, in pixels. If not defined, the player tries to determine automatically the height from the played media file.
+rendering.macro.jwplayer.parameter.autostart.name=Autostart
+rendering.macro.jwplayer.parameter.autostart.description=Automatically start playing the video on page load. Can be true or false (default). Autostart does not work on mobile devices like iOS and Android.
+rendering.macro.jwplayer.parameter.repeat.name=Repeat
+rendering.macro.jwplayer.parameter.repeat.description=Whether to loop playback of the playlist or not. Can be true (keep playing forever) or false (stop playback when completed). Defaults to false.</content>
+  <object>
+    <name>Macros.JWPlayerTranslations</name>
+    <number>0</number>
+    <className>XWiki.TranslationDocumentClass</className>
+    <guid>ec755466-5b35-4e9b-a0f2-1e1f0261fb33</guid>
+    <class>
+      <name>XWiki.TranslationDocumentClass</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <scope>
+        <cache>0</cache>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>scope</name>
+        <number>1</number>
+        <prettyName>Scope</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators>|, </separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>GLOBAL|WIKI|USER|ON_DEMAND</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </scope>
+    </class>
+    <property>
+      <scope>WIKI</scope>
+    </property>
+  </object>
+</xwikidoc>
