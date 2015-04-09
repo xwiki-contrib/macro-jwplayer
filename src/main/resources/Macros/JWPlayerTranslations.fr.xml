@@ -24,7 +24,7 @@
   <web>Macros</web>
   <name>JWPlayerTranslations</name>
   <language>fr</language>
-  <defaultLanguage/>
+  <defaultLanguage>en</defaultLanguage>
   <translation>1</translation>
   <parent>Macros.JWPlayer</parent>
   <creator>xwiki:XWiki.Admin</creator>
