@@ -27,7 +27,7 @@
   <parent>
     <groupId>org.xwiki.commons</groupId>
     <artifactId>xwiki-commons-pom</artifactId>
-    <version>5.1</version>
+    <version>7.0</version>
   </parent>
   <groupId>org.xwiki.contrib</groupId>
   <artifactId>macro-jwplayer</artifactId>
@@ -66,20 +66,22 @@
     </xwiki.extension.features>
     <!-- Don't run CLIRR here since there's no Java code. -->
     <xwiki.clirr.skip>true</xwiki.clirr.skip>
+    <!-- The minimum required version of the XWiki runtime. -->
+    <xwiki.version>5.1</xwiki.version>
   </properties>
   <dependencies>
      <!-- Required by wiki macros -->
     <dependency>
       <groupId>org.xwiki.platform</groupId>
       <artifactId>xwiki-platform-rendering-wikimacro-store</artifactId>
-      <version>${commons.version}</version>
+      <version>${xwiki.version}</version>
       <scope>runtime</scope>
     </dependency>
     <!-- Optional dependency for documentation -->
     <dependency>
       <groupId>org.xwiki.platform</groupId>
       <artifactId>xwiki-platform-rendering-macro-code</artifactId>
-      <version>${commons.version}</version>
+      <version>${xwiki.version}</version>
       <scope>runtime</scope>
       <optional>true</optional>
     </dependency>
