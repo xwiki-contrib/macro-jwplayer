@@ -191,17 +191,13 @@ Finally, you can play video files from your server:
 require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
   $('.jwplayer').each(function(index) {
     var options = {
-      file: this.alt
+      file: $(this).attr('data-source'),
+      autostart: $(this).hasClass('autostart'),
+      repeat: $(this).hasClass('repeat')
     };
-    if($(this).hasClass('autostart')){
-      options.autostart = true;
-    }
-    if($(this).hasClass('repeat')){
-      options.repeat = true;
-    }
-    var width = $(this).attr('width');
+    var width = $(this).attr('data-width');
     width &amp;&amp; (options.width = width);
-    var height = $(this).attr('height');
+    var height = $(this).attr('data-height');
     height &amp;&amp; (options.height = height);
     this.id = this.id || ('jwplayer' + index);
     jwplayer(this.id).setup(options);
@@ -345,9 +341,21 @@ require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
 #end
 #set ($width = $mathtool.toInteger($xcontext.macro.params.width))
 #set ($height = $mathtool.toInteger($xcontext.macro.params.height))
-#set ($autostart = $xcontext.macro.params.autostart)
-#set ($repeat = $xcontext.macro.params.repeat)
-[[image:missing.png||class="jwplayer#if ($autostart == 'true') autostart#end#if ($repeat == 'true') repeat#end"#if ($width) width="$width"#end#if ($height) height="$height"#end alt="$reference"]]
+#set ($autostart = $xcontext.macro.params.autostart == 'true')
+#set ($repeat = $xcontext.macro.params.repeat == 'true')
+#set ($attributes = [
+  "class='jwplayer#if ($autostart) autostart#end#if ($repeat) repeat#end'",
+  "data-source='$reference'"
+])
+#if ($width)
+  #set ($discard = $attributes.add("data-width='$width'"))
+#end
+#if ($height)
+  #set ($discard = $attributes.add("data-height='$height'"))
+#end
+(% $stringtool.join($attributes, ' ') %)(((
+  Loading the video player...
+)))
 {{/velocity}}</code>
     </property>
     <property>
