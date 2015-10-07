@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ * See the NOTICE file distributed with this work for additional
+ * information regarding copyright ownership.
+ *
+ * This is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU Lesser General Public License as
+ * published by the Free Software Foundation; either version 2.1 of
+ * the License, or (at your option) any later version.
+ *
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this software; if not, write to the Free
+ * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
+-->
+
+<xwikidoc>
+  <web>Macros</web>
+  <name>JWPlayerTranslations</name>
+  <language>hu</language>
+  <defaultLanguage>en</defaultLanguage>
+  <translation>1</translation>
+  <parent>Macros.JWPlayer</parent>
+  <creator>xwiki:XWiki.Admin</creator>
+  <author>xwiki:XWiki.Admin</author>
+  <customClass/>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <creationDate>1424790568000</creationDate>
+  <date>1424792434000</date>
+  <contentUpdateDate>1424792434000</contentUpdateDate>
+  <version>1.1</version>
+  <title>JWPlayer Translations</title>
+  <template/>
+  <defaultTemplate/>
+  <validationScript/>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.1</syntaxId>
+  <hidden>true</hidden>
+  <content>## XWiki Translation for language hu generated from http://www.l10n.xwiki.org
+rendering.macro.jwplayer.description=A JW Player egy nyílt forrású beágyazható médialejátszó weblapokra, ami szinte minden általánosan használt audió és videóformátumot támogat. Könnyen konfigurálható és személyre szabható.
+rendering.macro.jwplayer.name=JW Player
+rendering.macro.jwplayer.parameter.attachment.description=Referencia a lejátszandó fájlra. A referencia relatív elérési utat követel a jelenlegi dokumentumhoz képest.\npl.\: Tárhely.Oldal@video.mp4 vagy egyszerűen video.mp4
+rendering.macro.jwplayer.parameter.attachment.name=Csatolt fájl
+rendering.macro.jwplayer.parameter.autostart.description=Automatikus lejátszás, amit a video betöltődött. Lehet True vagy False. Az automatikus lejátszás nem működik mobilböngészőkről. (pl. Android és iOS böngészői)
+rendering.macro.jwplayer.parameter.autostart.name=Automatikus lejátszás
+rendering.macro.jwplayer.parameter.height.description=A lejátszó magassága pixelekben. Amennyiben nincs meghatározva a lejátszó megpróbál egy automatikus magasságot beállítani a médiafájl függvényében.
+rendering.macro.jwplayer.parameter.height.name=Magasság
+rendering.macro.jwplayer.parameter.repeat.description=Folyamatos lejátszás. Lehet True (végtelenitett változat) vagy False (1 lejátszás után leáll). Az alapértelmezett beállitás False.
+rendering.macro.jwplayer.parameter.repeat.name=Ismétlés
+rendering.macro.jwplayer.parameter.width.description=A lejátszó szélessége pixelekben. Amennyiben nincs meghatározva a lejátszó megpróbál egy automatikus szélességet beállítani a médiafájl függvényében.
+rendering.macro.jwplayer.parameter.width.name=Szélesség
+</content>
+</xwikidoc>

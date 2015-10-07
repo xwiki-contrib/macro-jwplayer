@@ -45,7 +45,7 @@
   <hidden>true</hidden>
   <content>## XWiki Translation for language fr generated from http://www.l10n.xwiki.org
 rendering.macro.jwplayer.description=JW Player est un lecteur multimédia open source intégrable dans les sites web, supportant un grand nombre de formats audio et vidéo courants.Le lecteur est facile à configurer, personnaliser et est extensible
-rendering.macro.jwplayer.name=Lecteur JW
+rendering.macro.jwplayer.name=JW Player
 rendering.macro.jwplayer.parameter.attachment.description=La référence pour le fichier multimédia joint qui doit être joué. La référence est résolue par rapport au document actuel. Par exemple\: Space.Page@video.mp4 ou Page@video.mp4 ou simplement video.mp4
 rendering.macro.jwplayer.parameter.attachment.name=Attachement
 rendering.macro.jwplayer.parameter.autostart.description=Démarrer automatiquement la lecture de la vidéo au chargement de la page. Peut être vrai ou faux (défaut). Autostart ne fonctionne pas sur les appareils mobiles comme iOS et Android.
