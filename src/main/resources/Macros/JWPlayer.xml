@@ -20,7 +20,7 @@
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
 -->
 
-<xwikidoc version="1.1">
+<xwikidoc version="1.2" reference="Macros.JWPlayer" locale="">
   <web>Macros</web>
   <name>JWPlayer</name>
   <language/>
@@ -130,6 +130,7 @@ Finally, you can play video files from your server:
       </cache>
       <code>
         <disabled>0</disabled>
+        <editor>PureText</editor>
         <name>code</name>
         <number>2</number>
         <prettyName>Code</prettyName>
@@ -217,6 +218,120 @@ require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
   <object>
     <name>Macros.JWPlayer</name>
     <number>0</number>
+    <className>XWiki.StyleSheetExtension</className>
+    <guid>4dd2370a-2947-4a23-aa89-21b29a0ec5ed</guid>
+    <class>
+      <name>XWiki.StyleSheetExtension</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <cache>
+        <cache>0</cache>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>cache</name>
+        <number>6</number>
+        <prettyName>Caching policy</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators>|, </separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>long|short|default|forbid</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </cache>
+      <code>
+        <disabled>0</disabled>
+        <editor>PureText</editor>
+        <name>code</name>
+        <number>3</number>
+        <prettyName>Code</prettyName>
+        <rows>20</rows>
+        <size>50</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </code>
+      <contentType>
+        <cache>0</cache>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>contentType</name>
+        <number>1</number>
+        <prettyName>Content Type</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators>|, </separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>CSS|LESS</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </contentType>
+      <name>
+        <disabled>0</disabled>
+        <name>name</name>
+        <number>2</number>
+        <prettyName>Name</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </name>
+      <parse>
+        <disabled>0</disabled>
+        <displayFormType>select</displayFormType>
+        <displayType>yesno</displayType>
+        <name>parse</name>
+        <number>5</number>
+        <prettyName>Parse content</prettyName>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </parse>
+      <use>
+        <cache>0</cache>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>use</name>
+        <number>4</number>
+        <prettyName>Use this extension</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators>|, </separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>currentPage|onDemand|always</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </use>
+    </class>
+    <property>
+      <cache>long</cache>
+    </property>
+    <property>
+      <code>.jwplayer.playlist-none {
+  margin-bottom: 10px;
+}</code>
+    </property>
+    <property>
+      <contentType>CSS</contentType>
+    </property>
+    <property>
+      <name>Style</name>
+    </property>
+    <property>
+      <parse/>
+    </property>
+    <property>
+      <use>always</use>
+    </property>
+  </object>
+  <object>
+    <name>Macros.JWPlayer</name>
+    <number>0</number>
     <className>XWiki.WikiMacroClass</className>
     <guid>2f5ffbbd-953e-4f8e-b5f7-6f0690169bb0</guid>
     <class>
@@ -230,6 +345,7 @@ require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
       <validationScript/>
       <code>
         <disabled>0</disabled>
+        <editor/>
         <name>code</name>
         <number>9</number>
         <prettyName>Macro code</prettyName>
@@ -240,6 +356,7 @@ require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
       </code>
       <contentDescription>
         <disabled>0</disabled>
+        <editor/>
         <name>contentDescription</name>
         <number>8</number>
         <prettyName>Content description (Not applicable for "No content" type)</prettyName>
@@ -275,6 +392,7 @@ require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
       </defaultCategory>
       <description>
         <disabled>0</disabled>
+        <editor/>
         <name>description</name>
         <number>3</number>
         <prettyName>Macro description</prettyName>
@@ -408,6 +526,7 @@ require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
       </defaultValue>
       <description>
         <disabled>0</disabled>
+        <editor/>
         <name>description</name>
         <number>2</number>
         <prettyName>Parameter description</prettyName>
@@ -474,6 +593,7 @@ require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
       </defaultValue>
       <description>
         <disabled>0</disabled>
+        <editor/>
         <name>description</name>
         <number>2</number>
         <prettyName>Parameter description</prettyName>
@@ -540,6 +660,7 @@ require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
       </defaultValue>
       <description>
         <disabled>0</disabled>
+        <editor/>
         <name>description</name>
         <number>2</number>
         <prettyName>Parameter description</prettyName>
@@ -606,6 +727,7 @@ require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
       </defaultValue>
       <description>
         <disabled>0</disabled>
+        <editor/>
         <name>description</name>
         <number>2</number>
         <prettyName>Parameter description</prettyName>
@@ -672,6 +794,7 @@ require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
       </defaultValue>
       <description>
         <disabled>0</disabled>
+        <editor/>
         <name>description</name>
         <number>2</number>
         <prettyName>Parameter description</prettyName>
