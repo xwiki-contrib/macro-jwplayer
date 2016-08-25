@@ -20,7 +20,7 @@
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
 -->
 
-<xwikidoc version="1.2" reference="Macros.JWPlayer" locale="">
+<xwikidoc version="1.1">
   <web>Macros</web>
   <name>JWPlayer</name>
   <language/>
@@ -130,7 +130,6 @@ Finally, you can play video files from your server:
       </cache>
       <code>
         <disabled>0</disabled>
-        <editor>PureText</editor>
         <name>code</name>
         <number>2</number>
         <prettyName>Code</prettyName>
@@ -345,7 +344,6 @@ require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
       <validationScript/>
       <code>
         <disabled>0</disabled>
-        <editor/>
         <name>code</name>
         <number>9</number>
         <prettyName>Macro code</prettyName>
@@ -356,7 +354,6 @@ require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
       </code>
       <contentDescription>
         <disabled>0</disabled>
-        <editor/>
         <name>contentDescription</name>
         <number>8</number>
         <prettyName>Content description (Not applicable for "No content" type)</prettyName>
@@ -392,7 +389,6 @@ require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
       </defaultCategory>
       <description>
         <disabled>0</disabled>
-        <editor/>
         <name>description</name>
         <number>3</number>
         <prettyName>Macro description</prettyName>
@@ -528,7 +524,6 @@ $xwiki.ssx.use("Macros.JWPlayer")
       </defaultValue>
       <description>
         <disabled>0</disabled>
-        <editor/>
         <name>description</name>
         <number>2</number>
         <prettyName>Parameter description</prettyName>
@@ -595,7 +590,6 @@ $xwiki.ssx.use("Macros.JWPlayer")
       </defaultValue>
       <description>
         <disabled>0</disabled>
-        <editor/>
         <name>description</name>
         <number>2</number>
         <prettyName>Parameter description</prettyName>
@@ -662,7 +656,6 @@ $xwiki.ssx.use("Macros.JWPlayer")
       </defaultValue>
       <description>
         <disabled>0</disabled>
-        <editor/>
         <name>description</name>
         <number>2</number>
         <prettyName>Parameter description</prettyName>
@@ -729,7 +722,6 @@ $xwiki.ssx.use("Macros.JWPlayer")
       </defaultValue>
       <description>
         <disabled>0</disabled>
-        <editor/>
         <name>description</name>
         <number>2</number>
         <prettyName>Parameter description</prettyName>
@@ -796,7 +788,6 @@ $xwiki.ssx.use("Macros.JWPlayer")
       </defaultValue>
       <description>
         <disabled>0</disabled>
-        <editor/>
         <name>description</name>
         <number>2</number>
         <prettyName>Parameter description</prettyName>
