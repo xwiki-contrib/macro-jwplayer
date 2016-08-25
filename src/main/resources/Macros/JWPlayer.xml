@@ -311,7 +311,7 @@ require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
       <cache>default</cache>
     </property>
     <property>
-      <code>#xwikicontent .jwplayer {
+      <code>#xwikicontent [id^="jwplayer"] {
   margin-bottom: 10px;
 }</code>
     </property>
