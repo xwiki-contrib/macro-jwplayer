@@ -444,10 +444,10 @@ require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
     </class>
     <property>
       <code>{{velocity}}
-#set ($jwdoc = $xcontext.macro.doc.fullName)
-#set ($discard = $xwiki.ssx.use($jwdoc))
+#set ($macroDocFullName = $xcontext.macro.doc.fullName)
+#set ($discard = $xwiki.ssx.use($macroDocFullName))
 #if ($xcontext.action != 'edit')
-  #set ($discard = $xwiki.jsx.use($jwdoc))
+  #set ($discard = $xwiki.jsx.use($macroDocFullName))
 #end
 #set ($reference = $xcontext.macro.params.attachment)
 ## Allow the user to pass a path or an absolute URL.
