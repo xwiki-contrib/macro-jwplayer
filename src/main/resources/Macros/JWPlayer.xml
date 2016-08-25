@@ -311,7 +311,7 @@ require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
       <cache>default</cache>
     </property>
     <property>
-      <code>#xwikicontent [id^="jwplayer"] {
+      <code>.jwplayer-wrapper {
   margin-bottom: 10px;
 }</code>
     </property>
@@ -444,9 +444,10 @@ require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
     </class>
     <property>
       <code>{{velocity}}
-#set ($discard = $xwiki.ssx.use($xcontext.macro.doc.fullName))
+#set ($jwdoc = $xcontext.macro.doc.fullName)
+#set ($discard = $xwiki.ssx.use($jwdoc))
 #if ($xcontext.action != 'edit')
-  #set ($discard = $xwiki.jsx.use($xcontext.macro.doc.fullName))
+  #set ($discard = $xwiki.jsx.use($jwdoc))
 #end
 #set ($reference = $xcontext.macro.params.attachment)
 ## Allow the user to pass a path or an absolute URL.
@@ -468,8 +469,10 @@ require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
 #if ($height)
   #set ($discard = $attributes.add("data-height='$height'"))
 #end
-(% $stringtool.join($attributes, ' ') %)(((
-  Loading the video player...
+(% class="jwplayer-wrapper" %)(((
+  (% $stringtool.join($attributes, ' ') %)(((
+    Loading the video player...
+  )))
 )))
 {{/velocity}}</code>
     </property>
