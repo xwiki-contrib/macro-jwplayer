@@ -309,10 +309,10 @@ require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
       </use>
     </class>
     <property>
-      <cache>long</cache>
+      <cache>default</cache>
     </property>
     <property>
-      <code>.jwplayer.playlist-none {
+      <code>#xwikicontent .jwplayer {
   margin-bottom: 10px;
 }</code>
     </property>
@@ -323,10 +323,10 @@ require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
       <name>Style</name>
     </property>
     <property>
-      <parse/>
+      <parse>0</parse>
     </property>
     <property>
-      <use>always</use>
+      <use>onDemand</use>
     </property>
   </object>
   <object>
@@ -448,6 +448,8 @@ require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
     </class>
     <property>
       <code>{{velocity}}
+$xwiki.ssx.use("Macros.JWPlayer")
+
 #if ($xcontext.action != 'edit')
   #set ($discard = $xwiki.jsx.use($xcontext.macro.doc.fullName))
 #end
