@@ -444,8 +444,7 @@ require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
     </class>
     <property>
       <code>{{velocity}}
-$xwiki.ssx.use("Macros.JWPlayer")
-
+#set ($discard = $xwiki.ssx.use($xcontext.macro.doc.fullName))
 #if ($xcontext.action != 'edit')
   #set ($discard = $xwiki.jsx.use($xcontext.macro.doc.fullName))
 #end
