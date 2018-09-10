@@ -40,9 +40,9 @@
   <syntaxId>xwiki/2.1</syntaxId>
   <hidden>true</hidden>
   <content>rendering.macro.jwplayer.name=JW Player
-rendering.macro.jwplayer.description=JW Player est un lecteur multimédia open source intégrable dans les sites web, supportant un grand nombre de formats audio et vidéo courants.Le lecteur est facile à configurer, personnaliser et est extensible
+rendering.macro.jwplayer.description=JW Player est un lecteur multimédia open source intégrable dans les sites web, supportant un grand nombre de formats audio et vidéo. Le lecteur est facile à configurer, personnaliser et est extensible.
 rendering.macro.jwplayer.parameter.attachment.name=Attachement
-rendering.macro.jwplayer.parameter.attachment.description=La référence pour le fichier multimédia joint qui doit être joué. La référence est résolue par rapport au document actuel. Par exemple\: Space.Page@video.mp4 ou Page@video.mp4 ou simplement video.mp4
+rendering.macro.jwplayer.parameter.attachment.description=La référence pour le fichier multimédia joint qui doit être joué. La référence est résolue par rapport au document actuel. Par exemple: Space.Page@video.mp4 ou Page@video.mp4 ou simplement video.mp4
 rendering.macro.jwplayer.parameter.width.name=Largeur
 rendering.macro.jwplayer.parameter.width.description=Largeur du lecteur en pixels. Si non définie, le lecteur tentera de déterminer automatiquement la largeur en fonction du fichier multimédia joué.
 rendering.macro.jwplayer.parameter.height.name=Hauteur
