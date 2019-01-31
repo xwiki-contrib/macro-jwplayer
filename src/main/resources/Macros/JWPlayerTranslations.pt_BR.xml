@@ -50,6 +50,5 @@ rendering.macro.jwplayer.parameter.height.description=A altura do visualizador e
 rendering.macro.jwplayer.parameter.autostart.name=Início automático
 rendering.macro.jwplayer.parameter.autostart.description=Inicia automaticamente o vídeo ou áudio assim que a página é carregada. Valores aceitos\: true ou false (False é o valor padrão). O Início automático não funciona em dispositivos móveis como IOS e Android.
 rendering.macro.jwplayer.parameter.repeat.name=Repetir
-rendering.macro.jwplayer.parameter.repeat.description=Se repetir for verdadeiro (true), ao término da reprodução a mídia irá voltar a reproduzir do inicio. Por padrão o repetir é falso (false), assim a reprodução para no término da mídia.
-</content>
+rendering.macro.jwplayer.parameter.repeat.description=Se repetir for verdadeiro (true), ao término da reprodução a mídia irá voltar a reproduzir do inicio. Por padrão o repetir é falso (false), assim a reprodução para no término da mídia.</content>
 </xwikidoc>
