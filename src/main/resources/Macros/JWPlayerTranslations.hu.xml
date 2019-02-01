@@ -50,6 +50,5 @@ rendering.macro.jwplayer.parameter.height.description=A lejátszó magassága pi
 rendering.macro.jwplayer.parameter.autostart.name=Automatikus lejátszás
 rendering.macro.jwplayer.parameter.autostart.description=Automatikus lejátszás, amit a video betöltődött. Lehet True vagy False. Az automatikus lejátszás nem működik mobilböngészőkről. (pl. Android és iOS böngészői)
 rendering.macro.jwplayer.parameter.repeat.name=Ismétlés
-rendering.macro.jwplayer.parameter.repeat.description=Folyamatos lejátszás. Lehet True (végtelenitett változat) vagy False (1 lejátszás után leáll). Az alapértelmezett beállitás False.
-</content>
+rendering.macro.jwplayer.parameter.repeat.description=Folyamatos lejátszás. Lehet True (végtelenitett változat) vagy False (1 lejátszás után leáll). Az alapértelmezett beállitás False.</content>
 </xwikidoc>

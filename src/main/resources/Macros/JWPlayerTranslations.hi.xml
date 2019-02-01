@@ -50,6 +50,5 @@ rendering.macro.jwplayer.parameter.height.name=Usa
 ### Missing: rendering.macro.jwplayer.parameter.autostart.name=Autostart
 ### Missing: rendering.macro.jwplayer.parameter.autostart.description=Automatically start playing the video on page load. Can be true or false (default). Autostart does not work on mobile devices like iOS and Android.
 ### Missing: rendering.macro.jwplayer.parameter.repeat.name=Repeat
-### Missing: rendering.macro.jwplayer.parameter.repeat.description=Whether to loop playback of the playlist or not. Can be true (keep playing forever) or false (stop playback when completed). Defaults to false.
-</content>
+### Missing: rendering.macro.jwplayer.parameter.repeat.description=Whether to loop playback of the playlist or not. Can be true (keep playing forever) or false (stop playback when completed). Defaults to false.</content>
 </xwikidoc>

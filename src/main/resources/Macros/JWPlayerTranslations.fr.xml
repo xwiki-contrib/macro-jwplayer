@@ -50,6 +50,5 @@ rendering.macro.jwplayer.parameter.height.description=La hauteur du lecteur en p
 rendering.macro.jwplayer.parameter.autostart.name=Autostart
 rendering.macro.jwplayer.parameter.autostart.description=Démarrer automatiquement la lecture de la vidéo au chargement de la page. Peut être vrai ou faux (défaut). Autostart ne fonctionne pas sur les appareils mobiles comme iOS et Android.
 rendering.macro.jwplayer.parameter.repeat.name=Répéter
-rendering.macro.jwplayer.parameter.repeat.description=Activer ou pas la lecture en boucle de la playlist. Peut être vrai (continuer à jouer pour toujours) ou faux (arrêter la lecture une fois terminée). Par défaut à faux.
-</content>
+rendering.macro.jwplayer.parameter.repeat.description=Activer ou pas la lecture en boucle de la playlist. Peut être vrai (continuer à jouer pour toujours) ou faux (arrêter la lecture une fois terminée). Par défaut à faux.</content>
 </xwikidoc>
