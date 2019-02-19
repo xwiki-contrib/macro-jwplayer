@@ -39,6 +39,17 @@
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.1</syntaxId>
   <hidden>true</hidden>
-  <content></content>
+  <content>### Missing: rendering.macro.jwplayer.name=JW Player
+rendering.macro.jwplayer.description=JW Player - это встраиваемый медиаплеер с открытым исходным кодом для веб-сайтов, поддерживающий многие распространенные аудио и видео форматы.
+rendering.macro.jwplayer.parameter.attachment.name=Вложение
+rendering.macro.jwplayer.parameter.attachment.description=Ссылка на прикрепленный медиа-файл, который должен быть воспроизведен. Например: E.g.: Space.Page@video.mp4 или Page@video.mp4 или video.mp4
+rendering.macro.jwplayer.parameter.width.name=Ширина
+rendering.macro.jwplayer.parameter.width.description=Ширина плеера, в пикселях. Если не указано, плеер попытается автоматически определить ширину, по размерам медиа-файла.
+rendering.macro.jwplayer.parameter.height.name=Высота
+rendering.macro.jwplayer.parameter.height.description=Высота плеера, в пикселях. Если не указано, плеер попытается автоматически определить высоту, по размерам медиа-файла.
+rendering.macro.jwplayer.parameter.autostart.name=Автостарт
+rendering.macro.jwplayer.parameter.autostart.description=Автоматически начать воспроизведение видео при загрузке страницы. Может быть включен или выключен(по-умолчанию). Не работает на мобильных устройствах iOS  и Android.
+rendering.macro.jwplayer.parameter.repeat.name=Повтор
+rendering.macro.jwplayer.parameter.repeat.description=Циклическое воспроизведение. Может быть включено или выключено(по-умолчанию).</content>
   
 </xwikidoc>
