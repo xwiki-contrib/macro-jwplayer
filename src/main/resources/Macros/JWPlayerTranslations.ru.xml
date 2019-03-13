@@ -39,7 +39,7 @@
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.1</syntaxId>
   <hidden>true</hidden>
-  <content>### Missing: rendering.macro.jwplayer.name=JW Player
+  <content>rendering.macro.jwplayer.name=JW Player
 rendering.macro.jwplayer.description=JW Player - это встраиваемый медиаплеер с открытым исходным кодом для веб-сайтов, поддерживающий многие распространенные аудио и видео форматы.
 rendering.macro.jwplayer.parameter.attachment.name=Вложение
 rendering.macro.jwplayer.parameter.attachment.description=Ссылка на прикрепленный медиа-файл, который должен быть воспроизведен. Например: E.g.: Space.Page@video.mp4 или Page@video.mp4 или video.mp4
