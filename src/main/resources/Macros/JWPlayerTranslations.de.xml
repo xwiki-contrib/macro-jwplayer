@@ -40,15 +40,15 @@
   <syntaxId>xwiki/2.1</syntaxId>
   <hidden>true</hidden>
   <content>rendering.macro.jwplayer.name=JW Player
-### Missing: rendering.macro.jwplayer.description=The JW Player is an open-source embeddable media player for web sites, supporting many commonly-used audio and video formats. The player is easy to configure, customize and extend.
-### Missing: rendering.macro.jwplayer.parameter.attachment.name=Attachment
-### Missing: rendering.macro.jwplayer.parameter.attachment.description=The reference to the attached media file that should be played. The reference is resolved relative to the current document. E.g.: Space.Page@video.mp4 or Page@video.mp4 or even simply video.mp4
-### Missing: rendering.macro.jwplayer.parameter.width.name=Width
-### Missing: rendering.macro.jwplayer.parameter.width.description=The player width, in pixels. If not defined, the player tries to determine automatically the width from the played media file.
-### Missing: rendering.macro.jwplayer.parameter.height.name=Height
-### Missing: rendering.macro.jwplayer.parameter.height.description=The player height, in pixels. If not defined, the player tries to determine automatically the height from the played media file.
-### Missing: rendering.macro.jwplayer.parameter.autostart.name=Autostart
-### Missing: rendering.macro.jwplayer.parameter.autostart.description=Automatically start playing the video on page load. Can be true or false (default). Autostart does not work on mobile devices like iOS and Android.
-### Missing: rendering.macro.jwplayer.parameter.repeat.name=Repeat
-### Missing: rendering.macro.jwplayer.parameter.repeat.description=Whether to loop playback of the playlist or not. Can be true (keep playing forever) or false (stop playback when completed). Defaults to false.</content>
+rendering.macro.jwplayer.description=Der JW Player ist ein einbettungsfähiger Open-Source-Mediaplayer für Websites, der viele gängige Audio- und Videoformate unterstützt. Der Player ist einfach zu konfigurieren, anzupassen und zu erweitern.
+rendering.macro.jwplayer.parameter.attachment.name=Anhang
+rendering.macro.jwplayer.parameter.attachment.description=Der Verweis auf die angehängte Mediendatei, die abgespielt werden soll. Die Referenz wird in Bezug auf das aktuelle Dokument aufgelöst. Z.B.: Space.Page@video.mp4 oder Page@video.mp4 oder auch nur video.mp4
+rendering.macro.jwplayer.parameter.width.name=Breite
+rendering.macro.jwplayer.parameter.width.description=Die Breite des Players in Pixeln. Wenn nicht definiert, versucht der Player, die Breite automatisch aus der abgespielten Mediendatei zu bestimmen.
+rendering.macro.jwplayer.parameter.height.name=Höhe
+rendering.macro.jwplayer.parameter.height.description=Die Höhe des Players, in Pixeln. Wenn nicht definiert, versucht der Player, automatisch die Höhe aus der abgespielten Mediendatei zu bestimmen.
+rendering.macro.jwplayer.parameter.autostart.name=Autostart
+rendering.macro.jwplayer.parameter.autostart.description=Startet die Wiedergabe des Videos automatisch beim Laden der Seite. Kann wahr oder falsch (Standard) sein . Der Autostart funktioniert nicht auf mobilen Geräten wie iOS und Android.
+rendering.macro.jwplayer.parameter.repeat.name=Wiederholen
+rendering.macro.jwplayer.parameter.repeat.description=Ob die Wiedergabe der Wiedergabeliste geloopt werden soll oder nicht. Kann wahr (für immer weiterspielen) oder falsch (Wiedergabe stoppen, wenn abgeschlossen) sein. Die Standardeinstellung ist falsch.</content>
 </xwikidoc>
