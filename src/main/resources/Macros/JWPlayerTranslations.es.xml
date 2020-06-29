@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ * See the NOTICE file distributed with this work for additional
+ * information regarding copyright ownership.
+ *
+ * This is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU Lesser General Public License as
+ * published by the Free Software Foundation; either version 2.1 of
+ * the License, or (at your option) any later version.
+ *
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this software; if not, write to the Free
+ * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
+-->
+
+<xwikidoc version="1.1">
+  <web>Macros</web>
+  <name>JWPlayerTranslations</name>
+  <language>es</language>
+  <defaultLanguage>en</defaultLanguage>
+  <translation>1</translation>
+  <creator>xwiki:XWiki.Admin</creator>
+  <creationDate>1424790568000</creationDate>
+  <parent>Macros.JWPlayer</parent>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <date>1424792434000</date>
+  <contentUpdateDate>1424792434000</contentUpdateDate>
+  <version>1.1</version>
+  <title>JWPlayer Translations</title>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.1</syntaxId>
+  <hidden>true</hidden>
+  <content>rendering.macro.jwplayer.name=JW Player
+rendering.macro.jwplayer.description=JW Player es un reproductor multimedia integrable de código abierto para sitios web, que soporta muchos formatos de audio y vídeo de uso común. El reproductor es fácil de configurar, personalizar y mejorar.
+rendering.macro.jwplayer.parameter.attachment.name=Adjunto
+rendering.macro.jwplayer.parameter.attachment.description=La rererencia del fichero multimedia adjunto a reproducir. La referencia se resuelve relativa al documento en curso. Por ejemplo: Espacio.Página@vídeo.mp4 o Página@vídeo.mp4 o sencillamente solo vídeo.mp4
+rendering.macro.jwplayer.parameter.width.name=Ancho
+rendering.macro.jwplayer.parameter.width.description=La anchura del reproductor, en pixeles. Si no ha sido definida, el reproductor intenta determinarla automáticamente de la anchura del fichero multimedia reproducido.
+rendering.macro.jwplayer.parameter.height.name=Alto
+rendering.macro.jwplayer.parameter.height.description=La altura del reproductor, en pixeles. Si no ha sido definida, el reproductor intenta determinarla automáticamente de la altura del fichero multimedia reproducido.
+rendering.macro.jwplayer.parameter.autostart.name=Inicio automático
+rendering.macro.jwplayer.parameter.autostart.description=Reproducir automáticamente el vídeo al cargar la página. Puede ser "true" o "false" (predeterminado). El inicio automático no funciona en dispositivos móviles con iOS y Android.
+rendering.macro.jwplayer.parameter.repeat.name=Repetir
+rendering.macro.jwplayer.parameter.repeat.description=Si reproducir la lista de reproducción en bucle o no. Puede ser "true" (reproducir para siempre) o "false" (dejar de reproducir al completarse). Su valor predeterminado es "false".</content>
+  
+</xwikidoc>
