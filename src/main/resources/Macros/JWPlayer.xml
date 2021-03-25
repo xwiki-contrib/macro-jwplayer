@@ -175,19 +175,26 @@ Finally, you can play video files from your server:
 });
 require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
   jwplayer.key="QowE9R/MhMc1H2U6HxMlLTxvbtbk+uhwkexhBQ==";
-  $('.jwplayer').each(function(index) {
-    var options = {
-      file: $(this).attr('data-source'),
-      autostart: $(this).hasClass('autostart'),
-      repeat: $(this).hasClass('repeat')
-    };
-    var width = $(this).attr('data-width');
-    width &amp;&amp; (options.width = width);
-    var height = $(this).attr('data-height');
-    height &amp;&amp; (options.height = height);
-    this.id = this.id || ('jwplayer' + index);
-    jwplayer(this.id).setup(options);
-  });
+
+  var init = function(event, data) {
+    var container = $((data &amp;&amp; data.elements) || document);
+    container.find('.jwplayer').each(function(index) {
+      var options = {
+        file: $(this).attr('data-source'),
+        autostart: $(this).hasClass('autostart'),
+        repeat: $(this).hasClass('repeat')
+      };
+      var width = $(this).attr('data-width');
+      width &amp;&amp; (options.width = width);
+      var height = $(this).attr('data-height');
+      height &amp;&amp; (options.height = height);
+      this.id = this.id || ('jwplayer' + index);
+      jwplayer(this.id).setup(options);
+    });
+  };
+
+  $(document).on('xwiki:dom:updated', init);
+  $(init);
 });</code>
     </property>
     <property>
