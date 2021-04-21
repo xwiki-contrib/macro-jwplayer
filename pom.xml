@@ -63,6 +63,11 @@
     <!-- Enable auto release on jira -->
     <xwiki.release.jira.skip>false</xwiki.release.jira.skip>
     <xwiki.issueManagement.jira.id>JWPLAYER</xwiki.issueManagement.jira.id>
+
+    <!-- Components -->
+    <xwiki.extension.components>
+      org.xwiki.rendering.macro.Macro/jwplayer
+    </xwiki.extension.components>
   </properties>
   <dependencies>
      <!-- Required by wiki macros -->
