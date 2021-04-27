@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.1" encoding="UTF-8"?>
 
 <!--
  * See the NOTICE file distributed with this work for additional
@@ -48,8 +48,9 @@ rendering.macro.jwplayer.parameter.width.description=Ширина плеера, 
 rendering.macro.jwplayer.parameter.height.name=Высота
 rendering.macro.jwplayer.parameter.height.description=Высота плеера, в пикселях. Если не указано, плеер попытается автоматически определить высоту, по размерам медиа-файла.
 rendering.macro.jwplayer.parameter.autostart.name=Автостарт
-rendering.macro.jwplayer.parameter.autostart.description=Автоматически начать воспроизведение видео при загрузке страницы. Может быть включен или выключен(по-умолчанию). Не работает на мобильных устройствах iOS  и Android.
+rendering.macro.jwplayer.parameter.autostart.description=Автоматически начать воспроизведение видео при загрузке страницы. Может быть включен или выключен(по-умолчанию). Не работает на мобильных устройствах iOS и Android.
 rendering.macro.jwplayer.parameter.repeat.name=Повтор
-rendering.macro.jwplayer.parameter.repeat.description=Циклическое воспроизведение. Может быть включено или выключено(по-умолчанию).</content>
+rendering.macro.jwplayer.parameter.repeat.description=Циклическое воспроизведение. Может быть включено или выключено(по-умолчанию).
+</content>
   
 </xwikidoc>
