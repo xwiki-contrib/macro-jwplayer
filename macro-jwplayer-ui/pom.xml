@@ -24,45 +24,39 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.xwiki.contrib</groupId>
-    <artifactId>parent-platform</artifactId>
-    <version>9.5</version>
+    <artifactId>macro-jwplayer</artifactId>
+    <version>2.1.8-SNAPSHOT</version>
   </parent>
-  <artifactId>macro-jwplayer</artifactId>
+  <artifactId>macro-jwplayer-ui</artifactId>
   <version>2.1.8-SNAPSHOT</version>
-  <name>JW Player Macro</name>
-  <packaging>pom</packaging>
+  <name>JW Player Macro - UI</name>
+  <packaging>xar</packaging>
   <description>Play media files using JW Player</description>
-  <inceptionYear>2013</inceptionYear>
-  <developers>
-    <developer>
-      <id>mflorea</id>
-      <name>Marius Dumitru Florea</name>
-    </developer>
-    <developer>
-      <id>jhaimerl</id>
-      <name>Josef Haimerl</name>
-    </developer>
-  </developers>
-  <scm>
-    <connection>scm:git:git://github.com/xwiki-contrib/macro-jwplayer.git</connection>
-    <developerConnection>scm:git:git@github.com:xwiki-contrib/macro-jwplayer.git</developerConnection>
-    <url>https://github.com/xwiki-contrib/macro-jwplayer</url>
-    <tag>HEAD</tag>
-  </scm>
   <properties>
     <!-- Old names of this module used for retro compatibility when resolving dependencies of old extensions -->
     <xwiki.extension.features>
-      mflorea:jwplayer-macro
+      org.xwiki.contrib:macro-jwplayer
     </xwiki.extension.features>
-    <!-- Don't run CLIRR here since there's no Java code. -->
-    <xwiki.clirr.skip>true</xwiki.clirr.skip>
-
-    <!-- Enable auto release on jira -->
-    <xwiki.release.jira.skip>false</xwiki.release.jira.skip>
-    <xwiki.issueManagement.jira.id>JWPLAYER</xwiki.issueManagement.jira.id>
+    <!-- Components -->
+    <xwiki.extension.components>
+      org.xwiki.rendering.macro.Macro/jwplayer
+    </xwiki.extension.components>
   </properties>
-  <modules>
-    <module>macro-jwplayer-ui</module>
-    <module>macro-jwplayer-xip</module>
-  </modules>
+  <dependencies>
+     <!-- Required by wiki macros -->
+    <dependency>
+      <groupId>org.xwiki.platform</groupId>
+      <artifactId>xwiki-platform-rendering-wikimacro-store</artifactId>
+      <version>${platform.version}</version>
+      <scope>runtime</scope>
+    </dependency>
+    <!-- Optional dependency for documentation -->
+    <dependency>
+      <groupId>org.xwiki.platform</groupId>
+      <artifactId>xwiki-platform-rendering-macro-code</artifactId>
+      <version>${platform.version}</version>
+      <scope>runtime</scope>
+      <optional>true</optional>
+    </dependency>
+  </dependencies>
 </project>
