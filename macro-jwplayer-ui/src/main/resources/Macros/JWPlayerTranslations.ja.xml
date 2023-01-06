@@ -42,13 +42,13 @@
   <content>rendering.macro.jwplayer.name=JWプレイヤー
 rendering.macro.jwplayer.description=JWプレイヤーはウェブサイトに埋め込み可能なオープンソースのメディアプレイヤーです。よく使用される多くの音声、動画フォーマットをサポートしています。プレイヤーは簡単に設定、カスタマイズ、拡張することができます。
 rendering.macro.jwplayer.parameter.attachment.name=添付ファイル
-### Missing: rendering.macro.jwplayer.parameter.attachment.description=The reference to the attached media file that should be played. The reference is resolved relative to the current document. E.g.: Space.Page@video.mp4 or Page@video.mp4 or even simply video.mp4
+rendering.macro.jwplayer.parameter.attachment.description=添付済の再生するメディアファイルへの参照。参照は、現在のドキュメントに相対的に解決されます。例：スペース.ページ@video.mp4、 ページ@video.mp4、 またはvideo.mp4
 rendering.macro.jwplayer.parameter.width.name=幅
-### Missing: rendering.macro.jwplayer.parameter.width.description=The player width, in pixels. If not defined, the player tries to determine automatically the width from the played media file.
+rendering.macro.jwplayer.parameter.width.description=プレイヤーの幅（ピクセル）。規定がない場合は、プレイヤーの幅は再生するメディアファイルから自動で決定します。
 rendering.macro.jwplayer.parameter.height.name=高さ
-### Missing: rendering.macro.jwplayer.parameter.height.description=The player height, in pixels. If not defined, the player tries to determine automatically the height from the played media file.
+rendering.macro.jwplayer.parameter.height.description=プレイヤーの高さ（ピクセル）。規定がない場合は、プレイヤーの高さは再生するメディアファイルから自動で決定します。
 rendering.macro.jwplayer.parameter.autostart.name=自動再生
-### Missing: rendering.macro.jwplayer.parameter.autostart.description=Automatically start playing the video on page load. Can be true or false (default). Autostart does not work on mobile devices like iOS and Android.
+rendering.macro.jwplayer.parameter.autostart.description=ページを読み込む際に自動で動画を再生。真か偽（既定）を指定。自動再生はiOSやAndroidのような携帯端末では動作しません。
 rendering.macro.jwplayer.parameter.repeat.name=繰り返し
 rendering.macro.jwplayer.parameter.repeat.description=プレイリストの再生を繰り返すかどうかを指定してください。真に設定すると永遠に繰り返し、偽に設定すると、プレイリストが完了したら再生を終了します。既定の値は偽に設定されています。
 </content>
