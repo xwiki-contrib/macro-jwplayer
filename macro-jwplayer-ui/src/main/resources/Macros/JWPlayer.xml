@@ -453,8 +453,8 @@ require(['jQueryNoConflict', 'jwplayer'], function($, jwplayer) {
   #set ($attachmentReference = $services.model.resolveAttachment($reference, 'explicit', $doc.documentReference))
   #set ($reference = $xwiki.getAttachmentURL($services.model.serialize($attachmentReference.parent), $attachmentReference.name))
 #end
-#set ($width = $mathtool.toInteger($xcontext.macro.params.width))
-#set ($height = $mathtool.toInteger($xcontext.macro.params.height))
+#set ($width = $numbertool.toNumber($xcontext.macro.params.width).intValue())
+#set ($height = $numbertool.toNumber($xcontext.macro.params.height).intValue())
 #set ($autostart = $xcontext.macro.params.autostart == 'true')
 #set ($repeat = $xcontext.macro.params.repeat == 'true')
 #set ($attributes = [
