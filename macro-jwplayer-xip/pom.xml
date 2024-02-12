@@ -48,7 +48,7 @@
         <plugin>
           <groupId>org.xwiki.commons</groupId>
           <artifactId>xwiki-commons-tool-extension-plugin</artifactId>
-          <version>${commons.version}</version>
+          <version>15.2</version>
           <configuration>
             <coreExtensions>
               <!-- We exclude what is already in the WAR. -->
