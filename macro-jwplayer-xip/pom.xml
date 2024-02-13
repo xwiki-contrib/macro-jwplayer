@@ -48,7 +48,8 @@
         <plugin>
           <groupId>org.xwiki.commons</groupId>
           <artifactId>xwiki-commons-tool-extension-plugin</artifactId>
-          <version>${commons.version}</version>
+          <!-- Using a more recent version of the plugin to make the build compatible with Maven 3.9. See https://github.com/xwiki/xwiki-commons/commit/067d23ddb55c2b9335eca8e6b675a54da5f43dc1 -->
+          <version>15.2</version>
           <configuration>
             <coreExtensions>
               <!-- We exclude what is already in the WAR. -->
