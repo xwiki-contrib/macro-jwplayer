@@ -56,11 +56,38 @@
     </xwiki.extension.features>
     <!-- Don't run CLIRR here since there's no Java code. -->
     <xwiki.clirr.skip>true</xwiki.clirr.skip>
-
     <!-- Enable auto release on jira -->
     <xwiki.release.jira.skip>false</xwiki.release.jira.skip>
     <xwiki.issueManagement.jira.id>JWPLAYER</xwiki.issueManagement.jira.id>
   </properties>
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-enforcer-plugin</artifactId>
+          <executions>
+            <execution>
+              <id>enforce-java</id>
+              <goals>
+                <goal>enforce</goal>
+              </goals>
+              <configuration>
+                <skip>${xwiki.enforcer.enforce-java.skip}</skip>
+                <rules>
+                  <requireJavaVersion>
+                    <!-- Java 11 is required to use a recent version of xwiki-commons-tool-extension-plugin plugin. -->
+                    <message>You must build with Java 11+!</message>
+                    <version>[11,)</version>
+                  </requireJavaVersion>
+                </rules>
+              </configuration>
+            </execution>
+          </executions>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
   <modules>
     <module>macro-jwplayer-ui</module>
     <module>macro-jwplayer-xip</module>
