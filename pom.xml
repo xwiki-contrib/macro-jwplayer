@@ -61,32 +61,30 @@
     <xwiki.issueManagement.jira.id>JWPLAYER</xwiki.issueManagement.jira.id>
   </properties>
   <build>
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-enforcer-plugin</artifactId>
-          <executions>
-            <execution>
-              <id>enforce-java</id>
-              <goals>
-                <goal>enforce</goal>
-              </goals>
-              <configuration>
-                <skip>${xwiki.enforcer.enforce-java.skip}</skip>
-                <rules>
-                  <requireJavaVersion>
-                    <!-- Java 11 is required to use a recent version of xwiki-commons-tool-extension-plugin plugin. -->
-                    <message>You must build with Java 11+!</message>
-                    <version>[11,)</version>
-                  </requireJavaVersion>
-                </rules>
-              </configuration>
-            </execution>
-          </executions>
-        </plugin>
-      </plugins>
-    </pluginManagement>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-enforcer-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>enforce-java</id>
+            <goals>
+              <goal>enforce</goal>
+            </goals>
+            <configuration>
+              <skip>${xwiki.enforcer.enforce-java.skip}</skip>
+              <rules>
+                <requireJavaVersion>
+                  <!-- Java 11 is required to use a recent version of xwiki-commons-tool-extension-plugin plugin. -->
+                  <message>You must build with Java 11+!</message>
+                  <version>[11,)</version>
+                </requireJavaVersion>
+              </rules>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
   </build>
   <modules>
     <module>macro-jwplayer-ui</module>
