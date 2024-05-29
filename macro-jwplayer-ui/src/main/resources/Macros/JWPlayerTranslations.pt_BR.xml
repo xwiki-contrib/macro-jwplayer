@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.1" encoding="UTF-8"?>
 
 <!--
  * See the NOTICE file distributed with this work for additional
@@ -39,7 +39,7 @@
   <content>rendering.macro.jwplayer.name=JW Player
 rendering.macro.jwplayer.description=O JW Player é um projeto open-source para visualização de mídias através do navegado, com suporte a diversos formatos de vídeo e áudio. O visualizador é fácil de configurar, personalizar e estender.
 rendering.macro.jwplayer.parameter.attachment.name=Anexo
-rendering.macro.jwplayer.parameter.attachment.description=Referência a um arquivo anexado (áudio ou vídeo) que será apresentado no visualizador. Esta referência será resolvida em relação ao documento atual. Exemplo\: Espaço.Página@vídeo.mp4 ou  Página@vídeo.mp4 ou simplismente vídeo.mp4 caso o arquivo seja anexo da   própria página.
+rendering.macro.jwplayer.parameter.attachment.description=A referência ao arquivo de mídia anexado que deve ser reproduzido. A referência é resolvida em relação ao documento atual. Por exemplo: Space.Page@video.mp4 ou Page@video.mp4 ou simplesmente video.mp4
 rendering.macro.jwplayer.parameter.width.name=Largura
 rendering.macro.jwplayer.parameter.width.description=A largura do visualizador em pixels. Caso não seja pré-definido um valor, será determinado automaticamente uma largura para o visualizador.
 rendering.macro.jwplayer.parameter.height.name=Altura
@@ -47,5 +47,6 @@ rendering.macro.jwplayer.parameter.height.description=A altura do visualizador e
 rendering.macro.jwplayer.parameter.autostart.name=Início automático
 rendering.macro.jwplayer.parameter.autostart.description=Inicia automaticamente o vídeo ou áudio assim que a página é carregada. Valores aceitos\: true ou false (False é o valor padrão). O Início automático não funciona em dispositivos móveis como IOS e Android.
 rendering.macro.jwplayer.parameter.repeat.name=Repetir
-rendering.macro.jwplayer.parameter.repeat.description=Se repetir for verdadeiro (true), ao término da reprodução a mídia irá voltar a reproduzir do inicio. Por padrão o repetir é falso (false), assim a reprodução para no término da mídia.</content>
+rendering.macro.jwplayer.parameter.repeat.description=Se repetir for verdadeiro (true), ao término da reprodução a mídia irá voltar a reproduzir do inicio. Por padrão o repetir é falso (false), assim a reprodução para no término da mídia.
+</content>
 </xwikidoc>
