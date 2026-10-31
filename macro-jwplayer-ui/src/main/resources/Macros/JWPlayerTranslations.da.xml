@@ -36,17 +36,17 @@
   <minorEdit>false</minorEdit>
   <syntaxId>plain/1.0</syntaxId>
   <hidden>true</hidden>
-  <content>### Missing: rendering.macro.jwplayer.name=
-### Missing: rendering.macro.jwplayer.description=
-### Missing: rendering.macro.jwplayer.parameter.attachment.name=
-### Missing: rendering.macro.jwplayer.parameter.attachment.description=
-### Missing: rendering.macro.jwplayer.parameter.width.name=
-### Missing: rendering.macro.jwplayer.parameter.width.description=
-### Missing: rendering.macro.jwplayer.parameter.height.name=
-### Missing: rendering.macro.jwplayer.parameter.height.description=
-### Missing: rendering.macro.jwplayer.parameter.autostart.name=
-### Missing: rendering.macro.jwplayer.parameter.autostart.description=
-### Missing: rendering.macro.jwplayer.parameter.repeat.name=
-### Missing: rendering.macro.jwplayer.parameter.repeat.description=
+  <content>rendering.macro.jwplayer.name=JW Player
+rendering.macro.jwplayer.description=JW Player er en indlejrbar medieafspiller med åben kildekode til websteder, som understøtter mange almindelige lyd- og videoformater. Afspilleren er nem at indstille, tilpasse og udvide.
+rendering.macro.jwplayer.parameter.attachment.name=Bilag
+rendering.macro.jwplayer.parameter.attachment.description=Referencen til den vedhæftede mediefil, der skal afspilles. Referencen fortolkes i forhold til det aktuelle dokument. Fx: Space.Page@video.mp4 eller Page@video.mp4 eller blot video.mp4
+rendering.macro.jwplayer.parameter.width.name=Bredde
+rendering.macro.jwplayer.parameter.width.description=Afspillerens bredde i pixel. Hvis den ikke er angivet, prøver afspilleren selv at finde bredden ud fra mediefilen.
+rendering.macro.jwplayer.parameter.height.name=Højde
+rendering.macro.jwplayer.parameter.height.description=Afspillerens højde i pixel. Hvis den ikke er angivet, prøver afspilleren selv at finde højden ud fra mediefilen.
+rendering.macro.jwplayer.parameter.autostart.name=Autostart
+rendering.macro.jwplayer.parameter.autostart.description=Start afspilningen af videoen automatisk, når siden indlæses. Kan være true eller false (standard). Autostart virker ikke på mobilenheder som iOS og Android.
+rendering.macro.jwplayer.parameter.repeat.name=Gentag
+rendering.macro.jwplayer.parameter.repeat.description=Om afspilningslisten skal afspilles i ring. Kan være true (bliv ved med at afspille) eller false (stop, når den er færdig). Standard er false.
 </content>
 </xwikidoc>
