@@ -59,6 +59,8 @@
     <!-- Enable auto release on jira -->
     <xwiki.release.jira.skip>false</xwiki.release.jira.skip>
     <xwiki.issueManagement.jira.id>JWPLAYER</xwiki.issueManagement.jira.id>
+    <!-- Java 11 is required to use a recent version of xwiki-commons-tool-extension-plugin plugin. -->
+    <xwiki.java.version>11</xwiki.java.version>
   </properties>
   <build>
     <plugins>
@@ -75,9 +77,8 @@
               <skip>${xwiki.enforcer.enforce-java.skip}</skip>
               <rules>
                 <requireJavaVersion>
-                  <!-- Java 11 is required to use a recent version of xwiki-commons-tool-extension-plugin plugin. -->
-                  <message>You must build with Java 11+!</message>
-                  <version>[11,)</version>
+                  <message>You must build with Java ${xwiki.java.version}+!</message>
+                  <version>[${xwiki.java.version},)</version>
                 </requireJavaVersion>
               </rules>
             </configuration>
